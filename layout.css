@@ -43,8 +43,8 @@ a, a:link, a:visited, a:hover, a:active {
 }
 
 header {
-  height: 300px;
-  padding-top: 50px;
+  height: 110px;
+  padding-top: 20px;
   text-align: center;
   background: #2D2D2D;
   overflow: hidden;
@@ -112,27 +112,20 @@ nav a:hover {
 
 .title-wrapper {
   position: relative;
-  left: 50%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.logo, .main-title {
+.main-title {
   position: relative;
-  left: -50%;
 }
 
 .main-title {
   display: inline-block;
   *display: inline;
-  margin: 60px;
-  font-size: 60px;
-  font-weight: 200;
+  margin: 30px;
+  font-size: 36px;
+  font-weight: 160;
   color: #ecf0f1;
-}
-
-.logo {
-  display: inline-block;
-  *display: inline;
 }
 
 footer {
